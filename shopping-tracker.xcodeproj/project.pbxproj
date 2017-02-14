@@ -8,14 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		D80CC1C31E47D66A00EF938E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CC1C21E47D66A00EF938E /* AppDelegate.swift */; };
-		D80CC1C51E47D66A00EF938E /* MyItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CC1C41E47D66A00EF938E /* MyItemsViewController.swift */; };
-		D80CC1C71E47D66A00EF938E /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CC1C61E47D66A00EF938E /* MarketViewController.swift */; };
-		D80CC1CA1E47D66A00EF938E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80CC1C81E47D66A00EF938E /* Main.storyboard */; };
 		D80CC1CC1E47D66A00EF938E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80CC1CB1E47D66A00EF938E /* Assets.xcassets */; };
 		D80CC1CF1E47D66A00EF938E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80CC1CD1E47D66A00EF938E /* LaunchScreen.storyboard */; };
 		D80CC1DA1E47D66A00EF938E /* shopping_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CC1D91E47D66A00EF938E /* shopping_trackerTests.swift */; };
-		D80CC1E51E47E96300EF938E /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CC1E41E47E96300EF938E /* ShoppingCartViewController.swift */; };
-		D8E1B75A1E4FE3E2008A1865 /* MyItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E1B7591E4FE3E2008A1865 /* MyItemsTableViewController.swift */; };
+		D8524B711E50C23A0064EAF0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8524B6F1E50C23A0064EAF0 /* MainViewController.swift */; };
+		D8524B721E50C23A0064EAF0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8524B701E50C23A0064EAF0 /* MainViewController.xib */; };
+		D85FD3321E5293EB00DB3159 /* MyItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD3301E5293EB00DB3159 /* MyItemsViewController.swift */; };
+		D85FD3391E52956E00DB3159 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD3381E52956E00DB3159 /* ViewController.swift */; };
+		D85FD33B1E5295C000DB3159 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD33A1E5295C000DB3159 /* ViewModel.swift */; };
+		D85FD33D1E529A7D00DB3159 /* MyItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD33C1E529A7D00DB3159 /* MyItemsViewModel.swift */; };
+		D85FD33F1E529C0100DB3159 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD33E1E529C0100DB3159 /* UIViewExtension.swift */; };
+		D85FD3411E529DCC00DB3159 /* MyItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD3401E529DCC00DB3159 /* MyItemsView.swift */; };
+		D85FD3431E529E1F00DB3159 /* MyItemsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85FD3421E529E1F00DB3159 /* MyItemsView.xib */; };
+		D85FD3451E529F5600DB3159 /* MarketView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85FD3441E529F5600DB3159 /* MarketView.xib */; };
+		D85FD3471E529F6700DB3159 /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD3461E529F6700DB3159 /* MarketView.swift */; };
+		D85FD3491E529F7A00DB3159 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD3481E529F7A00DB3159 /* MarketViewController.swift */; };
+		D85FD34B1E529F8900DB3159 /* MarketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD34A1E529F8900DB3159 /* MarketViewModel.swift */; };
+		D85FD34D1E52A07C00DB3159 /* ShoppingCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD34C1E52A07C00DB3159 /* ShoppingCartView.swift */; };
+		D85FD34F1E52A08B00DB3159 /* ShoppingCartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD34E1E52A08B00DB3159 /* ShoppingCartViewModel.swift */; };
+		D85FD3511E52A09800DB3159 /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD3501E52A09800DB3159 /* ShoppingCartViewController.swift */; };
+		D85FD3531E52A0A600DB3159 /* ShoppingCartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85FD3521E52A0A600DB3159 /* ShoppingCartView.xib */; };
+		D85FD3551E52A23700DB3159 /* identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD3541E52A23700DB3159 /* identifiers.swift */; };
+		D85FD3571E52A2FF00DB3159 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD3561E52A2FF00DB3159 /* UIImageExtensions.swift */; };
+		D85FD35A1E52A6DB00DB3159 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85FD3591E52A6DB00DB3159 /* Cartography.framework */; };
+		D85FD35C1E52A6E500DB3159 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85FD35B1E52A6E500DB3159 /* ReactiveSwift.framework */; };
+		D85FD3601E52A6FA00DB3159 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85FD35D1E52A6FA00DB3159 /* Realm.framework */; };
+		D85FD3611E52A6FA00DB3159 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85FD35E1E52A6FA00DB3159 /* RealmSwift.framework */; };
+		D85FD3621E52A6FA00DB3159 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85FD35F1E52A6FA00DB3159 /* Result.framework */; };
+		D85FD3641E52A77400DB3159 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85FD3631E52A77400DB3159 /* ReactiveCocoa.framework */; };
+		D85FD36A1E52A99B00DB3159 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD3691E52A99B00DB3159 /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,17 +52,38 @@
 /* Begin PBXFileReference section */
 		D80CC1BF1E47D66A00EF938E /* shopping-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shopping-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80CC1C21E47D66A00EF938E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D80CC1C41E47D66A00EF938E /* MyItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyItemsViewController.swift; sourceTree = "<group>"; };
-		D80CC1C61E47D66A00EF938E /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
-		D80CC1C91E47D66A00EF938E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D80CC1CB1E47D66A00EF938E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D80CC1CE1E47D66A00EF938E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D80CC1D01E47D66A00EF938E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D80CC1D51E47D66A00EF938E /* shopping-trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shopping-trackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80CC1D91E47D66A00EF938E /* shopping_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopping_trackerTests.swift; sourceTree = "<group>"; };
 		D80CC1DB1E47D66A00EF938E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D80CC1E41E47E96300EF938E /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
-		D8E1B7591E4FE3E2008A1865 /* MyItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyItemsTableViewController.swift; path = UIComponent/MyItems/MyItemsTableViewController.swift; sourceTree = "<group>"; };
+		D8524B6F1E50C23A0064EAF0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = UIComponent/MainViewController.swift; sourceTree = "<group>"; };
+		D8524B701E50C23A0064EAF0 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = UIComponent/MainViewController.xib; sourceTree = "<group>"; };
+		D85FD3301E5293EB00DB3159 /* MyItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyItemsViewController.swift; path = UIComponent/MyItems/MyItemsViewController.swift; sourceTree = "<group>"; };
+		D85FD3381E52956E00DB3159 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = UIComponent/ViewController.swift; sourceTree = "<group>"; };
+		D85FD33A1E5295C000DB3159 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = UIComponent/ViewModel.swift; sourceTree = "<group>"; };
+		D85FD33C1E529A7D00DB3159 /* MyItemsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyItemsViewModel.swift; path = UIComponent/MyItems/MyItemsViewModel.swift; sourceTree = "<group>"; };
+		D85FD33E1E529C0100DB3159 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = UIComponent/Extension/UIViewExtension.swift; sourceTree = "<group>"; };
+		D85FD3401E529DCC00DB3159 /* MyItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyItemsView.swift; path = UIComponent/MyItems/MyItemsView.swift; sourceTree = "<group>"; };
+		D85FD3421E529E1F00DB3159 /* MyItemsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyItemsView.xib; path = UIComponent/MyItems/MyItemsView.xib; sourceTree = "<group>"; };
+		D85FD3441E529F5600DB3159 /* MarketView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MarketView.xib; path = UIComponent/Market/MarketView.xib; sourceTree = "<group>"; };
+		D85FD3461E529F6700DB3159 /* MarketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarketView.swift; path = UIComponent/Market/MarketView.swift; sourceTree = "<group>"; };
+		D85FD3481E529F7A00DB3159 /* MarketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarketViewController.swift; path = UIComponent/Market/MarketViewController.swift; sourceTree = "<group>"; };
+		D85FD34A1E529F8900DB3159 /* MarketViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarketViewModel.swift; path = UIComponent/Market/MarketViewModel.swift; sourceTree = "<group>"; };
+		D85FD34C1E52A07C00DB3159 /* ShoppingCartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShoppingCartView.swift; path = UIComponent/ShoppingCart/ShoppingCartView.swift; sourceTree = "<group>"; };
+		D85FD34E1E52A08B00DB3159 /* ShoppingCartViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShoppingCartViewModel.swift; path = UIComponent/ShoppingCart/ShoppingCartViewModel.swift; sourceTree = "<group>"; };
+		D85FD3501E52A09800DB3159 /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShoppingCartViewController.swift; path = UIComponent/ShoppingCart/ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		D85FD3521E52A0A600DB3159 /* ShoppingCartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShoppingCartView.xib; path = UIComponent/ShoppingCart/ShoppingCartView.xib; sourceTree = "<group>"; };
+		D85FD3541E52A23700DB3159 /* identifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = identifiers.swift; path = UIComponent/identifiers.swift; sourceTree = "<group>"; };
+		D85FD3561E52A2FF00DB3159 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = UIComponent/Extension/UIImageExtensions.swift; sourceTree = "<group>"; };
+		D85FD3591E52A6DB00DB3159 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = SOURCE_ROOT; };
+		D85FD35B1E52A6E500DB3159 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = SOURCE_ROOT; };
+		D85FD35D1E52A6FA00DB3159 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = SOURCE_ROOT; };
+		D85FD35E1E52A6FA00DB3159 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = SOURCE_ROOT; };
+		D85FD35F1E52A6FA00DB3159 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = SOURCE_ROOT; };
+		D85FD3631E52A77400DB3159 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = SOURCE_ROOT; };
+		D85FD3691E52A99B00DB3159 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtension.swift; path = UIComponent/Extension/UIViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +91,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85FD3601E52A6FA00DB3159 /* Realm.framework in Frameworks */,
+				D85FD3641E52A77400DB3159 /* ReactiveCocoa.framework in Frameworks */,
+				D85FD35A1E52A6DB00DB3159 /* Cartography.framework in Frameworks */,
+				D85FD3621E52A6FA00DB3159 /* Result.framework in Frameworks */,
+				D85FD3611E52A6FA00DB3159 /* RealmSwift.framework in Frameworks */,
+				D85FD35C1E52A6E500DB3159 /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +131,10 @@
 		D80CC1C11E47D66A00EF938E /* shopping-tracker */ = {
 			isa = PBXGroup;
 			children = (
+				D85FD3581E52A6C400DB3159 /* Frameworks */,
 				D8E1B7581E4FE286008A1865 /* UIComponents */,
 				D80CC1C21E47D66A00EF938E /* AppDelegate.swift */,
-				D80CC1C81E47D66A00EF938E /* Main.storyboard */,
+				D85FD3541E52A23700DB3159 /* identifiers.swift */,
 				D80CC1CB1E47D66A00EF938E /* Assets.xcassets */,
 				D80CC1CD1E47D66A00EF938E /* LaunchScreen.storyboard */,
 				D80CC1D01E47D66A00EF938E /* Info.plist */,
@@ -102,11 +151,36 @@
 			path = "shopping-trackerTests";
 			sourceTree = "<group>";
 		};
+		D85FD3341E52941100DB3159 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D85FD33E1E529C0100DB3159 /* UIViewExtension.swift */,
+				D85FD3561E52A2FF00DB3159 /* UIImageExtensions.swift */,
+				D85FD3691E52A99B00DB3159 /* UIViewControllerExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D85FD3581E52A6C400DB3159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D85FD3631E52A77400DB3159 /* ReactiveCocoa.framework */,
+				D85FD35D1E52A6FA00DB3159 /* Realm.framework */,
+				D85FD35E1E52A6FA00DB3159 /* RealmSwift.framework */,
+				D85FD35F1E52A6FA00DB3159 /* Result.framework */,
+				D85FD35B1E52A6E500DB3159 /* ReactiveSwift.framework */,
+				D85FD3591E52A6DB00DB3159 /* Cartography.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D8E1B7551E4FE25A008A1865 /* MyItems */ = {
 			isa = PBXGroup;
 			children = (
-				D80CC1C41E47D66A00EF938E /* MyItemsViewController.swift */,
-				D8E1B7591E4FE3E2008A1865 /* MyItemsTableViewController.swift */,
+				D85FD3301E5293EB00DB3159 /* MyItemsViewController.swift */,
+				D85FD33C1E529A7D00DB3159 /* MyItemsViewModel.swift */,
+				D85FD3401E529DCC00DB3159 /* MyItemsView.swift */,
+				D85FD3421E529E1F00DB3159 /* MyItemsView.xib */,
 			);
 			name = MyItems;
 			sourceTree = "<group>";
@@ -114,7 +188,10 @@
 		D8E1B7561E4FE264008A1865 /* Market */ = {
 			isa = PBXGroup;
 			children = (
-				D80CC1C61E47D66A00EF938E /* MarketViewController.swift */,
+				D85FD3441E529F5600DB3159 /* MarketView.xib */,
+				D85FD3461E529F6700DB3159 /* MarketView.swift */,
+				D85FD3481E529F7A00DB3159 /* MarketViewController.swift */,
+				D85FD34A1E529F8900DB3159 /* MarketViewModel.swift */,
 			);
 			name = Market;
 			sourceTree = "<group>";
@@ -122,7 +199,10 @@
 		D8E1B7571E4FE27F008A1865 /* ShoppingCart */ = {
 			isa = PBXGroup;
 			children = (
-				D80CC1E41E47E96300EF938E /* ShoppingCartViewController.swift */,
+				D85FD34C1E52A07C00DB3159 /* ShoppingCartView.swift */,
+				D85FD34E1E52A08B00DB3159 /* ShoppingCartViewModel.swift */,
+				D85FD3501E52A09800DB3159 /* ShoppingCartViewController.swift */,
+				D85FD3521E52A0A600DB3159 /* ShoppingCartView.xib */,
 			);
 			name = ShoppingCart;
 			sourceTree = "<group>";
@@ -130,9 +210,14 @@
 		D8E1B7581E4FE286008A1865 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				D85FD3341E52941100DB3159 /* Extensions */,
 				D8E1B7551E4FE25A008A1865 /* MyItems */,
 				D8E1B7561E4FE264008A1865 /* Market */,
 				D8E1B7571E4FE27F008A1865 /* ShoppingCart */,
+				D8524B6F1E50C23A0064EAF0 /* MainViewController.swift */,
+				D8524B701E50C23A0064EAF0 /* MainViewController.xib */,
+				D85FD3381E52956E00DB3159 /* ViewController.swift */,
+				D85FD33A1E5295C000DB3159 /* ViewModel.swift */,
 			);
 			name = UIComponents;
 			sourceTree = "<group>";
@@ -147,6 +232,7 @@
 				D80CC1BB1E47D66A00EF938E /* Sources */,
 				D80CC1BC1E47D66A00EF938E /* Frameworks */,
 				D80CC1BD1E47D66A00EF938E /* Resources */,
+				D85FD3661E52A7FA00DB3159 /* Carthage Run Script */,
 			);
 			buildRules = (
 			);
@@ -223,8 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D80CC1CF1E47D66A00EF938E /* LaunchScreen.storyboard in Resources */,
+				D8524B721E50C23A0064EAF0 /* MainViewController.xib in Resources */,
 				D80CC1CC1E47D66A00EF938E /* Assets.xcassets in Resources */,
-				D80CC1CA1E47D66A00EF938E /* Main.storyboard in Resources */,
+				D85FD3431E529E1F00DB3159 /* MyItemsView.xib in Resources */,
+				D85FD3531E52A0A600DB3159 /* ShoppingCartView.xib in Resources */,
+				D85FD3451E529F5600DB3159 /* MarketView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,16 +326,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D85FD3661E52A7FA00DB3159 /* Carthage Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Cartography.framework",
+			);
+			name = "Carthage Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/zsh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D80CC1BB1E47D66A00EF938E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80CC1C71E47D66A00EF938E /* MarketViewController.swift in Sources */,
+				D85FD3391E52956E00DB3159 /* ViewController.swift in Sources */,
+				D85FD33D1E529A7D00DB3159 /* MyItemsViewModel.swift in Sources */,
+				D85FD3491E529F7A00DB3159 /* MarketViewController.swift in Sources */,
+				D85FD3571E52A2FF00DB3159 /* UIImageExtensions.swift in Sources */,
+				D85FD36A1E52A99B00DB3159 /* UIViewControllerExtension.swift in Sources */,
+				D85FD3471E529F6700DB3159 /* MarketView.swift in Sources */,
 				D80CC1C31E47D66A00EF938E /* AppDelegate.swift in Sources */,
-				D80CC1E51E47E96300EF938E /* ShoppingCartViewController.swift in Sources */,
-				D80CC1C51E47D66A00EF938E /* MyItemsViewController.swift in Sources */,
-				D8E1B75A1E4FE3E2008A1865 /* MyItemsTableViewController.swift in Sources */,
+				D8524B711E50C23A0064EAF0 /* MainViewController.swift in Sources */,
+				D85FD33F1E529C0100DB3159 /* UIViewExtension.swift in Sources */,
+				D85FD33B1E5295C000DB3159 /* ViewModel.swift in Sources */,
+				D85FD3551E52A23700DB3159 /* identifiers.swift in Sources */,
+				D85FD3511E52A09800DB3159 /* ShoppingCartViewController.swift in Sources */,
+				D85FD3321E5293EB00DB3159 /* MyItemsViewController.swift in Sources */,
+				D85FD34B1E529F8900DB3159 /* MarketViewModel.swift in Sources */,
+				D85FD34F1E52A08B00DB3159 /* ShoppingCartViewModel.swift in Sources */,
+				D85FD34D1E52A07C00DB3159 /* ShoppingCartView.swift in Sources */,
+				D85FD3411E529DCC00DB3159 /* MyItemsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,14 +393,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D80CC1C81E47D66A00EF938E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D80CC1C91E47D66A00EF938E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D80CC1CD1E47D66A00EF938E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -384,6 +500,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XCM38NKWSG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "shopping-tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "theGRID.shopping-tracker";
@@ -397,6 +517,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XCM38NKWSG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "shopping-tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "theGRID.shopping-tracker";
